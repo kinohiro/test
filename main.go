@@ -3,14 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	for i := 0; i <10; i++{
-		fmt.Println(i)
-		i++
-	}
+	fruits := "木下博隆aa"
 
-	i := 0
-	for i < 10 {
-		fmt.Println(i)
-		i++
+	for i, s := range fruits {
+		fmt.Printf("fruits[%d]=%d\n", i, s)
 	}
 }
